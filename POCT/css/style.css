@@ -1,0 +1,192 @@
+body{
+background: url("../img/poct.png") no-repeat;
+background-color: #F25222;
+z-index: 2;
+}
+#wrapper{
+	max-width: 1150px;
+	height: auto;
+	margin: 0 auto;
+}
+.navigationRow{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+.leftNav>ul>li:last-child{
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+		padding-top: 15px;
+}
+.leftNav>ul>li:nth-child(2){
+	color: white;
+	font-size: 23px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.rightNav{
+	padding: 0px;
+}
+.info{
+		display: flex;
+		font-weight: bold;
+	font-size: 16px;
+	color: white;
+	float: left;
+	line-height: 15px;
+	display: inline-block;
+
+}
+.infoNum{
+	display:inline-block; 
+	font-weight: bold;
+	font-size: 34px;
+	color: white;
+	/*padding-top: 6px;*/
+	padding-left: 5px;
+	float: left;
+}
+.info1{
+		display: flex;
+		font-weight: bold;
+	font-size: 14px;
+	color: white;
+	float: left;
+	line-height: 15px;
+	display: inline-block;
+
+}
+.infoNum2{
+	display:inline-block; 
+	font-weight: bold;
+	font-size: 34px;
+	color: white;
+	/*padding-top: 6px;*/
+	padding-left: 55px;
+	float: right;
+	line-height: 5px;
+}
+.sened button {
+	    background-color: #F0B204;
+    font-size: 10px;
+    padding: 20px 25px;
+    border-radius: 4px;
+    top: 17px; 
+    float: right;
+}
+.context h3 {
+	float: left;
+	color: white;
+	font-size: 17px;
+    left: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.headtext p{
+	
+	float: left;
+	color: white;
+	font-weight: bold;
+	font-size: 34px;
+	display:inline-block;
+}
+.formRaw{
+	padding-top: 150px;
+}
+.axtaris{
+	float: right;
+}
+.formStyle{
+	background-color: white;
+	float: right;
+	width: 340px;
+    height: 220px;
+}
+
+
+}
+.formStyle h2{
+	float: left;
+	color: black;
+	font-size: 17px;
+	display:inline-block;
+}
+.lost1{   
+	background-color: #fbc222;
+	 padding: 24px 44px;
+	 border-radius: 4px; 
+	/*float: right;
+	*/    
+}
+.selector select {
+	width: 280px;
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: #ccc;
+	border: 0;
+	margin: 25px 10px;
+
+}
+.selector a {
+	width: 280px;
+	display: inline-block;
+	background-color: orange;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	margin: auto 10px;
+}
+.headtext{
+	padding-top: 52px;
+}
+
+#Tapilmislar p{
+	background: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+	height: 500px;
+} 
+.melumat{
+	position: relative;
+	top: 0px;
+	left:10px;
+	font-weight:bold;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.melumat1{
+	position: relative;
+	top: 0px;
+	left: 10px;
+}
+
+
+.sonTapilanlar , .sonTapilanlar2, .sonTapilanlar3, .sonTapilanlar4{
+	background-color: white;
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+	border-radius: 7px;
+	padding-bottom:8px;
+
+}
+.sonTapilanlar:hover{
+	border: 2px solid #F25222;
+	box-sizing: border-box;
+	box-shadow: 10;
+}
+#sonTapilanlar {
+	background: white;
+	padding-top: 0px;
+	height: 300px;
+
+}
